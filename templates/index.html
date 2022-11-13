@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat App</title>
+    <link href="../../static/style.css" rel="stylesheet" />
+</head>
+<body>
+<h1>Chat App</h1>
+<form id="submit_form" autocomplete="off" action="/chat">
+    <div>
+        <label id="username_label">Username:</label><br>
+        <input id="username" type="text" name="username" autocomplete="false" required autofocus>
+    </div>
+    <br>
+    <div>
+        <label id="username_label">Chatroom Code:</label><br>
+        <input id="chatroom_code" type="text" name="room" autocomplete="false" required>
+    </div>
+    <br>
+    <button type="submit" id="submit_button">Submit</button>
+</form>
+</body>
+</html>
